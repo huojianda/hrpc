@@ -9,6 +9,10 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.net.Socket;
 
+/**
+ * @author huoji
+ * soket代理 ，解决部分阻断问题
+ */
 public class SoketHandler implements Runnable {
 
     private Socket socket;

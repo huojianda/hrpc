@@ -8,6 +8,8 @@ import java.util.concurrent.Executors;
 
 /**
  * @author huoji
+ * 服务发布  基于soket
+ * 使用线程池  阻断在线程级别
  */
 public class HrpcProxyServer {
 

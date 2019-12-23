@@ -2,6 +2,10 @@ package com.hrpc.api;
 
 import java.io.Serializable;
 
+/**
+ * @author huoji
+ * 入参请求参数信息
+ */
 public class HrpcRequest implements Serializable {
 
     private String className;
